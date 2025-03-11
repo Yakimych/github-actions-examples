@@ -6,7 +6,7 @@ on:
   push:
     branches-ignore:
       - master
-      - feature/*
+      # - feature/*
   pull_request_target:
     branches:
       - master
