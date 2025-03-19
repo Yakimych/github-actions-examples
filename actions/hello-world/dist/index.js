@@ -25689,7 +25689,7 @@ try {
     console.log(`Hello ${nameToGreet}!`);
     // Record the time of greeting as an output
     const time = new Date().toTimeString();
-    core.setOutput("time", time);
+    // core.setOutput("time", time);
 }
 catch (error) {
     // Handle errors and indicate failure
