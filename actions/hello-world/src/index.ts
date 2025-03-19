@@ -9,6 +9,7 @@ try {
   // Record the time of greeting as an output
   const time: string = new Date().toTimeString();
   core.setOutput("time", time);
+  core.setFailed("Test action failure");
 } catch (error) {
   // Handle errors and indicate failure
   if (error instanceof Error) {

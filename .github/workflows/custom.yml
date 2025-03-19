@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Yakimych/github-actions-examples/actions/hello-world@master
+        uses: Yakimych/github-actions-examples/actions/hello-world@use-action
         with:
           who-to-greet: "Test"
       - name: Get the output time
