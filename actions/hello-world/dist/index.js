@@ -25690,7 +25690,6 @@ try {
     // Record the time of greeting as an output
     const time = new Date().toTimeString();
     core.setOutput("time", time);
-    core.setFailed("Test action failure");
 }
 catch (error) {
     // Handle errors and indicate failure
